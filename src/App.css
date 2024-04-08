@@ -1,0 +1,59 @@
+.a{
+    text-align: center;
+    justify-content: center;
+}
+.imagehome1{
+ text-align: center; 
+}
+/* icons */
+.homeicons{
+    text-align: center;
+    overflow: hidden;
+   
+
+}
+.homeicons:hover{
+    transform: translateY(-5px);
+    transition: .50s;
+    }
+
+.homefont{
+    text-align: center;
+    font-family: "Carter One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.homebutton1{
+    color: azure;
+   background-color: rgb(124, 64, 202);
+   border-radius: 5px;
+   height: 45px;
+   }
+.homebutton2{
+    color: azure;
+    background-color: rgba(100, 210, 224, 0.781);
+    border-radius: 5px;
+    height: 45px;
+    }
+.homebutton3{
+    color: azure;
+        background-color: rgb(89, 179, 71);
+        border-radius: 5px;
+        height: 45px;
+        }
+.homebutton4{
+    color: azure;
+            background-color: rgb(19, 143, 67);
+            border-radius: 5px;
+            height: 45px;
+            }
+ .navcolor{
+    background-color: rgb(5, 5, 82);
+    
+    
+    
+ }    
+ .footercolor{
+    color: rgb(6, 117, 182);
+ }       

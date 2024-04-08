@@ -1,0 +1,112 @@
+/* .navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff; */
+/* } */
+.header{
+    text-align: center;
+    color: #020202;
+}
+
+.card{
+      
+    background: #fff;
+    padding: 0;
+}
+.wrap{
+    height: 100%;
+    display: flex;   
+}
+.button{
+    text-align: center;
+    width: 1400;
+    height: 45px;
+    font-family: 'roboto',sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 400;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+.button:hover{
+    background-color: #2ee590;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-5px);
+    
+
+}
+.buttonheader{
+    width: 1400;
+    height: 45px;
+    font-family: 'roboto',sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+.buttonheader:hover{
+    background-color: #2ee590;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-5px);
+    
+
+}
+.logo{
+    text-align: center;
+    justify-content: center;
+}
+.homebuttons{
+    background-color: #fff;
+    padding: 0%;
+}
+.underline::before{
+    content: "";
+    position: absolute;
+    top: 90px;
+    left: 25%;
+    height: 2px;
+    width: 50%;
+    background: #2ee590;
+    border-radius: 50px;
+    transform:scaleX(0);
+    transition: transform 0.2s linear; 
+}
+.underline:hover::before{
+    transform: scaleX(1);
+}
+.registrationbox{
+    padding: 0;
+}
+/* placementcell */
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  .star{
+    text-align: center;
+    justify-content: center;
+    
+  }
+  .homecolor{
+    background-color: darkblue;
+  }
